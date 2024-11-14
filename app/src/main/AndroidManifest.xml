@@ -24,9 +24,6 @@
             android:exported="false" />
         <activity android:name=".ListViewActivity" />
         <activity
-            android:name=".CustomAdapterActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
@@ -43,11 +40,6 @@
         <!-- Declarar SettingsActivity -->
         <activity android:name=".SettingsActivity"
             android:label="Configuración" />
-        <activity android:name=".SettingsActivity"
-            android:label="Configuración" />
-
-    </application>
-
 
         <activity
             android:name=".MainActivityRegistro"

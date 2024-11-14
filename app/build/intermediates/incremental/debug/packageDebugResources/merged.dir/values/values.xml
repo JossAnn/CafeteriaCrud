@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="anadir_nuevo_elemento">Anadir nuevo elemento</string>
+    <string name="app_name">Adaptadores</string>
+    <style name="Base.Theme.AplicaciónLoginRegistro" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AplicaciónLoginRegistro" parent="Base.Theme.AplicaciónLoginRegistro"/>
+    <style name="Theme.AppCompat.NoActionBar.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
