@@ -1,0 +1,60 @@
+<!-- res/layout/activity_settings.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Modo de tema (Oscuro o Claro) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema de la aplicación"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnCambiarTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar tema" />
+
+    <!-- Selector de sonido de notificación -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonido de notificación"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnSeleccionarSonido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elegir sonido" />
+
+    <!-- Avatar y nombre del usuario -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de perfil"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/etNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario" />
+    <EditText
+        android:id="@+id/etEmailUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico" />
+    <Button
+        android:id="@+id/btnGuardarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar perfil" />
+
+    <!-- Primera vez (booleano) -->
+    <Switch
+        android:id="@+id/switchPrimeraVez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar introducción al inicio" />
+</LinearLayout>

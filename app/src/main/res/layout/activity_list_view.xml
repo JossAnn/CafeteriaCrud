@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="CustomAdapter">
+
+
+    <!-- TextView para mostrar el nombre del usuario -->
+    <TextView
+        android:id="@+id/user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedidos de Usuario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ListView para mostrar los pedidos -->
+
+    <!-- Botón para agregar un nuevo pedido -->
+    <ListView
+        android:id="@+id/order_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_add_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8723E"
+        android:text="Agregar Pedido" />
+
+    <!-- Botón para eliminar todos los pedidos -->
+    <Button
+        android:id="@+id/btn_delete_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#C8723E"
+        android:text="Eliminar Todos los Pedidos" />
+
+    <Button
+        android:id="@+id/btn_edit_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8723E"
+        android:text="Editar Pedido" />
+
+
+</LinearLayout>
